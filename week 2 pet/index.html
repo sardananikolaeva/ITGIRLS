@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <h1>Регистрация питомца</h1>
+    <form>
+      <fieldset>
+        <legend><b>Имя</b></legend>
+        <div>
+          <label for="petname">Кличка питомца</label>
+          <input
+            type="text"
+            name="petname"
+            id="petname"
+            value="Введите кличку питомца"
+          />
+        </div>
+        <div>
+          <label for="name">ФИО владельца</label>
+          <input type="text" name="name" id="name" value="Введите ваше имя" />
+        </div>
+        <div>
+          <label for="phone">Контактные данные</label>
+          <input type="tel" name="phone" id="phone" value="+7(000)000-00-00" />
+        </div>
+      </fieldset>
+      <div>
+        <label for="breed"><b>Порода</b></label>
+        <select name="breed" id="breed">
+          <option value="">--Выберите породу</option>
+          <option value="maine-coon">Мейн-кун</option>
+          <option value="scottish-feild">Шотландская вислоухая</option>
+          <option value="british-shorthair">Британская короткошерстная</option>
+          <option value="bengal">Бенгальская</option>
+          <option value="munchkin">Манчкин</option>
+          <option value="siberian">Сибирская</option>
+          <option value="siamese">Сиамская</option>
+        </select>
+      </div>
+      <fieldset>
+        <legend><b>Рацион</b></legend>
+        <br />
+        <input type="checkbox" name="meat" id="meat" />
+        <label for="meat">Мышечное мясо</label><br />
+        <input type="checkbox" name="meat-bones" id="meat-bones" />
+        <label for="meat-bones">Мясокостные продукты</label><br />
+        <input type="checkbox" name="byproducts" id="byproducts" />
+        <label for="byproducts">Печень и субпродукты</label><br />
+        <input type="checkbox" name="seafood" id="seafood" />
+        <label for="seafood">Рыба и морепродукты</label><br />
+        <input type="checkbox" name="prod-feed" id="prod-feed" />
+        <label for="prod-feed">Производственный корм</label><br />
+      </fieldset>
+      <div>
+        <p><b>Пол</b></p>
+        <input type="radio" name="sex" value="male" id="male" />
+        <label for="male">Самец</label><br />
+        <input type="radio" name="sex" value="female" id="female" />
+        <label for="female">Самка</label><br />
+      </div>
+      <div>
+        <label for="age"><b>Возраст</b></label>
+        <select name="age" id="age">
+          <option value="kitten">0-6мес.</option>
+          <option value="junior">7мес-2года</option>
+          <option value="young">3-6лет</option>
+          <option value="adult">7-10лет</option>
+          <option value="old">11-14лет</option>
+        </select>
+      </div>
+      <div>
+        <label for="comment"><b>Комментарий</b></label
+        ><br />
+        <textarea name="comment" id="comment" rows="5" cols="20">
+Введите ваш комментарий</textarea
+        >
+      </div>
+      <div>
+        <label for="photo">Вы можете приложить фото питомца:</label>
+        <input
+          type="file"
+          name="photo"
+          id="photo"
+          accept="image/png, image/jpeg"
+        />
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
