@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: lightgray;
+}
+button {
+  border-radius: 5px;
+  width: 169px;
+  height: 36px;
+  margin: 20px;
+}
+#logo {
+  height: 44px;
+  width: 182px;
+  position: absolute;
+}
+#number {
+  margin: 20px;
+}
+#call {
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+}
+#account {
+  color: #7a0ce8;
+  stroke: #7a0ce8;
+  background-color: white;
+}
+.header {
+  min-width: 1941px;
+}
+.headermenu {
+  height: 154px;
+  display: flex;
+  justify-content: end;
+  background-color: white;
+}
+hr {
+  position: absolute;
+  margin-left: 10vw;
+  height: 1px;
+  width: 1441px;
+}
+.menu {
+  min-width: 1941px;
+  height: 108px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding-top: 60px;
+}
+h1 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 20px;
+}
+.text_image {
+  display: inline-flex;
+  margin: 8vw;
+}
+.text {
+  height: 325px;
+  width: 867px;
+  left: 240px;
+  top: 326px;
+}
+.images {
+  width: 884px;
+  height: 613.64px;
+}
+.block {
+  background-color: white;
+  height: 285px;
+  width: 1424px;
+  left: 250px;
+  top: 708px;
+  border-radius: 35px;
+  text-align: center;
+  display: inline-flex;
+  padding-top: 100px;
+  margin-left: 14vw;
+}
+.footer {
+  background-color: white;
+  display: inline-flex;
+}
+.column {
+  display: inline-block;
+  margin-left: 130px;
+}
+#logo_footer {
+  height: 49px;
+  width: 192px;
+  left: 242px;
+  top: 4462px;
+  border-radius: 0px;
+}
+#bank_footer {
+  height: 75px;
+  width: 263.8202819824219px;
+  left: 225px;
+  top: 4554px;
+}
+#association_logo {
+  height: 67px;
+  width: 156.89312744140625px;
+  left: 241.98828125px;
+  top: 4713px;
+}
