@@ -26,8 +26,18 @@ button {
   stroke: #7a0ce8;
   background-color: white;
 }
+#call:hover {
+  color: lightpink;
+}
+#account:hover {
+  color: lightpink;
+}
+a:active {
+  color: darkgray;
+}
 .header {
   min-width: 1941px;
+  box-shadow: 0 0 10px black;
 }
 .headermenu {
   height: 154px;
