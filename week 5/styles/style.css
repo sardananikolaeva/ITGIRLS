@@ -18,7 +18,7 @@
   flex-direction: row;
   justify-content: stretch;
 }
-.body {
+.container {
   display: flex;
   flex-flow: column;
   min-height: 60vh;
@@ -46,15 +46,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.more1 {
+.more {
   background-color: rgb(254, 234, 185);
   flex: 1;
-  margin-right: 10px;
-}
-.more2 {
-  background-color: rgb(254, 234, 185);
-  flex: 1;
-  margin-left: 10px;
+  margin: 10px;
 }
 .more_s {
   background-color: rgb(254, 234, 185);

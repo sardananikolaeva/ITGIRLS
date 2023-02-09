@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(224, 224, 224);
+  display: grid;
+}
+.main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.main__content {
+  background-color: rgb(255, 248, 227);
+  text-align: center;
+  display: grid;
+  gap: 10px;
+}
+.main_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main__right {
+  background-color: rgb(215, 231, 196);
+  display: grid;
+}
+.footer {
+  background-color: rgb(224, 224, 224);
+}
+.content {
+  min-height: 40px;
+  background-color: rgb(254, 234, 185);
+}
